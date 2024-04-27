@@ -3,6 +3,7 @@
   "private": true,
   "version": "1",
   "type": "module",
+  "homepage": "https://maksym-tkachuk.github.io/jet-base-io",
   "author": {
     "name": "Maksym Tkachuk",
     "email": "tkachykmakc@gmail.com"
@@ -44,6 +45,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^6.1.1",
     "husky": "^8.0.3",
     "jsdom": "^22.1.0",
     "lint-staged": "^13.2.3",
