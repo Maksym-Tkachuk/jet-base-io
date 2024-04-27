@@ -1,5 +1,7 @@
 # JetBase.io
 
+[Site URL](https://maksym-tkachuk.github.io/jet-base-io/)
+
 ### Development Mode
 
 To run the application in development mode, execute the following command:
@@ -33,3 +35,11 @@ Before launching the application in production mode, you need to build the proje
   ```
 
   This command will launch your application in a production environment, ready for real-world usage.
+
+### Test
+
+To run the tests, you need to execute the following command:
+
+```sh
+yarn test
+```
