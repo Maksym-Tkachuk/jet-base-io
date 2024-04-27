@@ -1,10 +1,7 @@
-/// <reference types="vitest" />
-/// <reference types="vite/client" />
-
 import react from '@vitejs/plugin-react'
 
 export default {
-  base: '/',
+  base: './',
   plugins: [react()],
   server: {
     port: 3001,
