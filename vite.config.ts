@@ -1,3 +1,6 @@
+/// <reference types="vitest" />
+/// <reference types="vite/client" />
+
 import react from '@vitejs/plugin-react'
 
 export default {
@@ -13,5 +16,9 @@ export default {
     alias: {
       src: '/src',
     },
+  },
+  test: {
+    globals: true,
+    environment: 'jsdom',
   },
 }
